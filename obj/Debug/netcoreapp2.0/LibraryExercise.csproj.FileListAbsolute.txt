@@ -8,3 +8,4 @@
 /Users/jackal/Projects/LibraryExercise/obj/Debug/netcoreapp2.0/LibraryExercise.AssemblyInfo.cs
 /Users/jackal/Projects/LibraryExercise/obj/Debug/netcoreapp2.0/LibraryExercise.dll
 /Users/jackal/Projects/LibraryExercise/obj/Debug/netcoreapp2.0/LibraryExercise.pdb
+/Users/jackal/Projects/LibraryExercise/obj/Debug/netcoreapp2.0/LibraryExercise.csprojResolveAssemblyReference.cache
