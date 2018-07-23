@@ -1,4 +1,4 @@
-@model AssetIndexModel
+@model LibraryExercise.Models.Catalog.AssetIndexModel
 
 <div id="assets">
     <h3>Library Catalog</h3>
@@ -18,9 +18,9 @@
                 {
                     <tr class="assetRow">
                         <td class="">
-                            <a asp-controller="Catalog" asp-action="Detail" asp-route-id="@asset.id">
+
                                 <img src="@asset.ImageUrl" class="imageCell" />                            
-                            </a>
+
                         </td>
                         <td>@asset.Title</td>
                         <td>@asset.AuthorOrDirector</td>
