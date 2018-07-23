@@ -24,6 +24,9 @@ namespace LibraryExercise
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
+            
+            services.AddSingleton(Configuration);
+            services.AddScoped<ILibraryAssetService,LibraryAssetService>();
 
             services.AddDbContext<LibraryContext>(options => 
                 options.UseSqlServer(Configuration.GetConnectionString("LibraryConnection")));
