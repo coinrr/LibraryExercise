@@ -18,7 +18,7 @@ namespace LibraryExercise
         public void Add(LibraryAsset newAsset)
         {
             _context.Add(newAsset);
-            _context.SaveChangesAsync();
+            _context.SaveChanges();
         }
 
         public IEnumerable<LibraryAsset> GetAll()
