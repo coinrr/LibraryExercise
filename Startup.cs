@@ -27,6 +27,7 @@ namespace LibraryExercise
             
             services.AddSingleton(Configuration);
             services.AddScoped<ILibraryAssetService,LibraryAssetService>();
+            services.AddScoped<ICheckoutService,CheckoutService>();
 
             services.AddDbContext<LibraryContext>(options => 
                 options.UseSqlServer(Configuration.GetConnectionString("LibraryConnection")));
